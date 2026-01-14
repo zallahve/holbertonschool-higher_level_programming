@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Safe printing of an integer"""
+"""Safe printing of an integer."""
 
 
 def safe_print_integer(value):
-    """Prints value as an integer using "{:d}".format().
+    """Print value as an int with "{:d}".format().
 
-    Returns True if printed successfully (value is an integer), otherwise False.
+    Return True if printed, otherwise False.
     """
     try:
         print("{:d}".format(value))
