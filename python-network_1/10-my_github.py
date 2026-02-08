@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Use GitHub API with Basic Auth (token) to print the authenticated user id."""
+"""Use GitHub API Basic Auth to print the authenticated user id."""
 import sys
 import requests
 
