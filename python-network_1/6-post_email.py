@@ -8,7 +8,11 @@ def main():
     url = sys.argv[1]
     email = sys.argv[2]
 
-    r = requests.post(url, data={"email": email}, headers={"cfclearance": "true"})
+    r = requests.post(
+        url,
+        data={"email": email},
+        headers={"cfclearance": "true"}
+    )
     print(r.text)
 
 
